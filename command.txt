@@ -1,0 +1,19 @@
+Для установления соединения:
+ws = new WebSocket("ws://127.0.0.1:666/")
+
+Для вывода сообщений:
+ws.onmessage = ({data}) => console.log(data); 
+
+Для установления имени:
+ws.send("My_Name Bob")
+
+Написать кому-то:
+ws.send ("Send_To 11,hi")
+
+
+
+ws = new WebSocket("ws://127.0.0.1:666/")
+ws.onmessage = ({data}) => console.log(data); 
+
+
+
