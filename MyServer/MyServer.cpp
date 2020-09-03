@@ -11,8 +11,6 @@ struct UserConnection
 	string user_name="x";
 };
 
-
-
 int main()
 {
 	atomic_ulong lastest_user_id = 10; //тип даннных atomic созданы для работы с неколькью потоками
